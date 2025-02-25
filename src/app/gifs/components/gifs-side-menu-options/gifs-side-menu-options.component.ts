@@ -11,6 +11,7 @@ interface MenuOption{
   selector: 'gifs-side-menu-options',
   imports: [],
   templateUrl: 'gifs-side-menu-options.component.html',
+  standalone: true
 })
 export class GifsSideMenuOptionsComponent {
   MenuOptions: MenuOption[] = [

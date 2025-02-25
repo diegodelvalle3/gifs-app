@@ -6,6 +6,7 @@ import { GifsSideMenuOptionsComponent } from '../gifs-side-menu-options/gifs-sid
   selector: 'gifs-side-menu',
   imports: [GifsSideMenuHeaderComponent, GifsSideMenuOptionsComponent],
   templateUrl: './gifs-side-menu.component.html',
+  standalone: true
 })
 export class GifsSideMenuComponent {
 

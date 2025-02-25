@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-trending-page',
-  imports: [RouterOutlet],
+  imports: [],
   templateUrl: 'trending-page.component.html',
   standalone: true
 })
