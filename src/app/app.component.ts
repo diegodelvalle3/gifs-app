@@ -4,7 +4,7 @@ import { EjemploComponent } from './components/ejemplo/ejemplo/ejemplo.component
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, EjemploComponent],
+  imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   standalone: true

@@ -2,11 +2,10 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'selector-name',
-  templateUrl: 'dashboard-page.component.html',
+  selector: 'app-trending-page',
   imports: [RouterOutlet],
+  templateUrl: 'trending-page.component.html',
   standalone: true
 })
 
-export default class DashboardPageComponent {
-}
+export default class TrendingPageComponent { }
